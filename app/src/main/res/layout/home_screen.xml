@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Home_screen">
+
+    <TableLayout
+        android:id="@+id/tableLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        >
+
+        <TableRow
+            android:orientation="horizontal"
+            android:layout_marginTop="0dp">
+
+            <LinearLayout
+                android:id="@+id/point_btn"
+                android:layout_width="110dp"
+                android:layout_height="130dp"
+                android:layout_marginEnd="10dp"
+                android:gravity="center"
+                android:background="@drawable/home_icon_stroke"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:src="@drawable/ic_bus" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="point Schedule"
+                    android:layout_marginTop="5dp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/updates_btn"
+                android:layout_width="110dp"
+                android:layout_height="130dp"
+                android:gravity="center"
+                android:layout_marginStart="10dp"
+                android:background="@drawable/home_icon_stroke"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:src="@drawable/ic_updates" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Updates"
+                    android:layout_marginTop="5dp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+
+        </TableRow>
+        <TableRow
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp">
+            
+
+            <LinearLayout
+                android:id="@+id/scholarship_btn"
+                android:layout_width="110dp"
+                android:layout_height="130dp"
+                android:layout_marginEnd="10dp"
+                android:gravity="center"
+                android:background="@drawable/home_icon_stroke"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:src="@drawable/ic_scholarship" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="scholarship"
+                    android:layout_marginTop="5dp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/forum_btn"
+                android:layout_width="110dp"
+                android:layout_height="130dp"
+                android:gravity="center"
+                android:layout_marginStart="10dp"
+                android:background="@drawable/home_icon_stroke"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:src="@drawable/ic_forum" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Forms"
+                    android:layout_marginTop="5dp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+
+        </TableRow>
+        <TableRow
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp">
+
+
+        <LinearLayout
+                android:id="@+id/timetable_btn"
+                android:layout_width="110dp"
+                android:layout_height="130dp"
+                android:layout_marginEnd="10dp"
+                android:gravity="center"
+                android:background="@drawable/home_icon_stroke"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:src="@drawable/ic_timetable" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Time table"
+                    android:layout_marginTop="5dp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/course_btn"
+                android:layout_width="110dp"
+                android:layout_height="130dp"
+                android:gravity="center"
+                android:layout_marginStart="10dp"
+                android:background="@drawable/home_icon_stroke"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:src="@drawable/ic_course" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Course Material"
+                    android:layout_marginTop="5dp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+
+        </TableRow>
+        <TableRow
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp">
+
+
+        <LinearLayout
+                android:id="@+id/finder_btn"
+                android:layout_width="110dp"
+                android:layout_height="130dp"
+                android:layout_marginEnd="10dp"
+                android:gravity="center"
+                android:background="@drawable/home_icon_stroke"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:src="@drawable/ic_finder" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Depart Finder"
+                    android:layout_marginTop="5dp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+
+
+        </TableRow>
+
+
+    </TableLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
