@@ -14,12 +14,16 @@
         android:theme="@style/Theme.IUBUpdates"
         tools:targetApi="31">
         <activity
+            android:label="Point Schedule"
+            android:screenOrientation="portrait"
             android:name=".Point_Schedule"
             android:exported="false" />
         <activity
+            android:screenOrientation="portrait"
             android:name=".Home_screen"
             android:exported="false" />
         <activity
+            android:screenOrientation="portrait"
             android:name=".Splash_Screen"
             android:exported="true">
             <intent-filter>
