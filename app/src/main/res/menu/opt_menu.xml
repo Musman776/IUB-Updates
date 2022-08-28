@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:title="Reminder"
+        android:id="@+id/notify"
+        app:showAsAction="withText"
+        android:icon="@drawable/ic_notify"/>
+    <item android:title="Rate Us"
+        android:id="@+id/rate"
+        app:showAsAction="withText"
+        android:icon="@drawable/ic_rate"/>
+    <item android:title="Share App"
+        android:id="@+id/share"
+        app:showAsAction="withText"
+        android:icon="@drawable/ic_share"/>
+    <item android:title="More Apps"
+        android:id="@+id/more"
+        app:showAsAction="withText"
+        android:icon="@drawable/ic_moe"/>
+</menu>
