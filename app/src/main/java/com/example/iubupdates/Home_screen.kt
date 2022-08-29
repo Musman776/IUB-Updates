@@ -19,20 +19,10 @@ class Home_screen : AppCompatActivity() {
     }
 
     //click on item
-
-
-
-
-
-
-
-
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         when(item.itemId){
             R.id.rate->{
-
-
-
+                //tis is fdsfsdf sd
             }
             R.id.more->{
 
