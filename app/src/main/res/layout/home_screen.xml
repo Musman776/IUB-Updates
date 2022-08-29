@@ -145,39 +145,10 @@
             </LinearLayout>
 
             <LinearLayout
-                android:id="@+id/course_btn"
-                android:layout_width="110dp"
-                android:layout_height="130dp"
-                android:gravity="center"
-                android:layout_marginStart="10dp"
-                android:background="@drawable/home_icon_stroke"
-                android:orientation="vertical">
-
-                <ImageView
-                    android:layout_width="70dp"
-                    android:layout_height="70dp"
-                    android:src="@drawable/ic_course" />
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Course Material"
-                    android:layout_marginTop="5dp"
-                    android:textStyle="bold" />
-            </LinearLayout>
-
-
-        </TableRow>
-        <TableRow
-            android:orientation="horizontal"
-            android:layout_marginTop="20dp">
-
-
-        <LinearLayout
                 android:id="@+id/finder_btn"
                 android:layout_width="110dp"
                 android:layout_height="130dp"
-                android:layout_marginEnd="10dp"
+                android:layout_marginStart="10dp"
                 android:gravity="center"
                 android:background="@drawable/home_icon_stroke"
                 android:orientation="vertical">
@@ -194,6 +165,14 @@
                     android:layout_marginTop="5dp"
                     android:textStyle="bold" />
             </LinearLayout>
+
+
+        </TableRow>
+        <TableRow
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp">
+
+
 
 
 

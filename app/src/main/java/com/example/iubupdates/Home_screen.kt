@@ -33,8 +33,8 @@ class Home_screen : AppCompatActivity() {
         AppRate.with(this).shouldShowRateDialog()
         sp = this.getSharedPreferences("filename",Context.MODE_PRIVATE)
         val editer = sp.edit()
-        editer.putBoolean("Noghtmode",cc)
-        editer.commit()
+        editer.putBoolean("Nightmode",cc)
+        editer.apply()
 
         point_btn.setOnClickListener {
 
@@ -47,9 +47,6 @@ class Home_screen : AppCompatActivity() {
         }
         updates_btn.setOnClickListener {
             startActivity(Intent(this,UpdatesActivity::class.java))
-        }
-        point_btn.setOnClickListener {
-            startActivity(Intent(this,PointActivity::class.java))
         }
 
 
