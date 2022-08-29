@@ -25,6 +25,7 @@
             android:name=".ComingSoonActivity"
             android:exported="false" />
         <activity
+            android:label="Point Time"
             android:name=".PointActivity"
             android:exported="false" />
         <activity
