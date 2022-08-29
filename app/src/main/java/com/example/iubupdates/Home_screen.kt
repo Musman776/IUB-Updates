@@ -23,6 +23,10 @@ class Home_screen : AppCompatActivity() {
 
 
 
+
+
+
+
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         when(item.itemId){
             R.id.rate->{
