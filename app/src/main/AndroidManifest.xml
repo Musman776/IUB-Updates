@@ -3,6 +3,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="com.example.iubupdates">
 
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -13,6 +18,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.IUBUpdates"
         tools:targetApi="31">
+        <activity
+            android:name=".UpdatesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ComingSoonActivity"
+            android:exported="false" />
         <activity
             android:name=".PointActivity"
             android:exported="false" />
@@ -28,6 +39,7 @@
         <activity
             android:name=".Splash_Screen"
             android:exported="true"
+            android:theme="@style/Theme.IUBUpdates.noaction"
             android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

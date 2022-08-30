@@ -4,9 +4,19 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/M.arslan/Desktop/androidresources/IUB-Updates/app/src/main/res/menu/opt_menu.xml" value="0.18958333333333333" />
-        <entry key="..\:/Users/M.arslan/Desktop/androidresources/IUB-Updates11/app/src/main/res/layout/activity_point.xml" value="0.33" />
+        <entry key="..\:/Users/M.arslan/Desktop/androidresources/IUB-Updates11/app/src/main/res/drawable-v24/btn_bg.xml" value="0.1" />
+        <entry key="..\:/Users/M.arslan/Desktop/androidresources/IUB-Updates11/app/src/main/res/drawable/bg.xml" value="0.1" />
+        <entry key="..\:/Users/M.arslan/Desktop/androidresources/IUB-Updates11/app/src/main/res/drawable/pointbg.xml" value="0.1" />
+        <entry key="..\:/Users/M.arslan/Desktop/androidresources/IUB-Updates11/app/src/main/res/drawable/splashlogo.xml" value="0.1" />
+        <entry key="..\:/Users/M.arslan/Desktop/androidresources/IUB-Updates11/app/src/main/res/layout/activity_coming_soon.xml" value="0.18958333333333333" />
+        <entry key="..\:/Users/M.arslan/Desktop/androidresources/IUB-Updates11/app/src/main/res/layout/activity_point.xml" value="0.2" />
+        <entry key="..\:/Users/M.arslan/Desktop/androidresources/IUB-Updates11/app/src/main/res/layout/activity_updates.xml" value="0.18958333333333333" />
+        <entry key="..\:/Users/M.arslan/Desktop/androidresources/IUB-Updates11/app/src/main/res/layout/backdialog.xml" value="0.25" />
         <entry key="..\:/Users/M.arslan/Desktop/androidresources/IUB-Updates11/app/src/main/res/layout/home_screen.xml" value="0.18958333333333333" />
         <entry key="..\:/Users/M.arslan/Desktop/androidresources/IUB-Updates11/app/src/main/res/layout/point_schedule.xml" value="0.18958333333333333" />
+        <entry key="..\:/Users/M.arslan/Desktop/androidresources/IUB-Updates11/app/src/main/res/layout/splash_screen.xml" value="0.22" />
+        <entry key="..\:/Users/M.arslan/Desktop/androidresources/IUB-Updates11/app/src/main/res/layout/switch_view.xml" value="0.18958333333333333" />
+        <entry key="..\:/Users/M.arslan/Desktop/androidresources/IUB-Updates11/app/src/main/res/menu/opt_menu.xml" value="0.18958333333333333" />
         <entry key="..\:/Users/mu788/AndroidStudioProjects/IUBupdates/app/src/main/res/drawable/baseline_school_24.xml" value="0.1775" />
         <entry key="..\:/Users/mu788/AndroidStudioProjects/IUBupdates/app/src/main/res/drawable/home_icon_stroke.xml" value="0.1775" />
         <entry key="..\:/Users/mu788/AndroidStudioProjects/IUBupdates/app/src/main/res/drawable/ic_baghdad_background.xml" value="0.1055" />
